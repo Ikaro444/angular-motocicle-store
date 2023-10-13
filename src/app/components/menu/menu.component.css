@@ -1,0 +1,19 @@
+.menu-initial{
+    display: flex;
+    flex-direction: column;
+}
+.menu-initial_img{
+    text-align: center;
+}
+.menu-initial_img > img{
+    margin: 20px 0px;
+    width: 200px;
+    border-radius: 50%;
+}
+.menu-initial_info > h2{
+    color: black;
+    justify-content: left;
+    padding-left: 10px;
+    text-align: center;
+    margin-bottom: 25px;
+}
