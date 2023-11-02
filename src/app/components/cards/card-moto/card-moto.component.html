@@ -1,15 +1,19 @@
 <div class="card-motos">
-    <div class="card-motos_img">
+    <div class="card-motos_content">
+        <h3 class="card-motos_nome">{{motoNome}}</h3>
         <img 
-            src="https://mlfiglnuxfgt.i.optimole.com/RJvaaXw-G3O2t6g5/w:auto/h:auto/q:eco/https://dvrmotosyamaha.com.br/wp-content/uploads/2017/08/2023_LANDER_250_COMPETITION_BLUE_360-7641-1-760x570-c-default.png" 
+            src={{motoImg}}
             alt="Lander"
             >
         <div class="card-motos_planos">
-            <a class="button_planos" href="">VER PLANOS</a>
+            <a 
+                [routerLink]=[]
+                class="button_planos" 
+                [routerLink]="['details', Id]">MAIS DETALHES
+            </a>
         </div>
         <div class="card-motos_contato">
-            <a class="button_fale" href="">FALE CONOSCO</a>
+            <a class="button_fale" href="https://api.whatsapp.com/send/?phone=559281954498&text&type=phone_number&app_absent=0" target="_blank"><span>FALE CONOSCO</span></a>
         </div>
     </div>
-
 </div>

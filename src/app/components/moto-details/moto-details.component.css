@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+}
+.botao-voltar {
+    background-color: #ffff;
+
+}
+.botao-voltar > a{
+    font-size: large;
+    font-weight: 900;
+    text-decoration: none;
+    color: black;
+    margin: px;
+    margin-top: 10px;
+    padding: 5px;
+    background-color: rgb(125, 125, 129);
+    border-radius: 2px;
+}
+.card-detail_principal{
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffff;
+}
+.card-detail_second{
+    width: 100%;
+    background-color: #ffff;
+}

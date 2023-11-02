@@ -1,15 +1,36 @@
-.card-motos{
+.card-motos {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 5px solid gray;
+    border: 5px solid rgba(17, 16, 16, 0.829);
+    background-color: #ffff;
+    border-radius: 15px;
     margin: -1;   
+    width: 380px;
+    height: 490px;
+    margin-bottom: 30px;
+
+    position: relative;
 }
-.card-motos_planos{
+.card-motos_nome {
+    margin-bottom: 5px;
     text-align: center;
-    margin: 0px 0px 40px 0px;
 }
-.card-motos_planos > a{
+.card-motos_content >img {
+    width: 290px;
+    height: 320px;
+    max-width: 100%;
+    min-width: 100%;
+    transition: transform .4s;
+}
+.card-motos_content >img:hover{
+    transform: scale(1.06);
+}
+.card-motos_planos {
+    text-align: center;
+    margin: 18px 0px 40px 0px;
+}
+.card-motos_planos > a {
     background-color: green;
     padding: 10px 50px;
     text-decoration: none;
@@ -19,18 +40,23 @@
     border: none;
     border-radius: 5px;
 }
-.card-motos_contato{
-    text-align: center;
-    margin: 30px 0px;
+.card-motos_planos > a:hover {
+    background-color: rgb(34, 179, 34);
 }
-.card-motos_contato > a{
+.card-motos_contato {
+    text-align: center;
+}
+.card-motos_contato > a {
     background-color: red;
-    padding: 10px 40px;
+    padding: 10px 53px;
     text-decoration: none;
     color: white;
     font-weight: bold;
     font-size: 18px;
     border: none;
     border-radius: 5px;
+}
+.card-motos_contato > a:hover{
+    background-color: rgb(247, 64, 64);
 }
 
